@@ -1,0 +1,22 @@
+---
+title: "Main page"
+layout: default
+---
+{% for post in site.posts offset: 0 limit: 50 %}	
+<div class="post">
+	<div class="postTitle" >
+		<h2><a title="{{post.title}}" href="{{ post.url }}">{{ post.title }}</a></h2>
+		<small>
+			<!-- Whitespace added for readability -->
+			{% assign d = post.date | date: "%-d"  %}
+			{{ post.date | date: "%B" }} 
+			{% case d %}
+			{% when '1' or '21' or '31' %}{{ d }}st,
+			{% when '2' or '22' %}{{ d }}nd,
+			{% when '3' or '23' %}{{ d }}rd,
+			{% else %}{{d}}th,
+			{% endcase %}
+			{{ post.date | date: "%Y" }} by bezet</small>
+	</div>
+</div>
+{% endfor %}	

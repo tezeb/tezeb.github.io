@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div id="leftColumn">
+	<div class="navigation">
+		{% if page.previous.url %}
+		<div class="alignleft">
+			<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+				&laquo;&nbsp;{{page.previous.title}}
+			</a>
+		</div>
+		{% endif %}
+		{% if page.next.url %}
+		<div class="alignright">
+			<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">
+				{{page.next.title}}&nbsp;&raquo;
+			</a>
+		</div>
+		{% endif %}
+	</div>
+
+	<div class="post">
+		<div class="postTitle singleTitle">
+			<h2><a href="{{page.url}}" rel="bookmark" title="Permanent Link to {{page.title}}">{{page.title}}</a></h2>
+			<small>
+				<!-- Whitespace added for readability -->
+				{% assign d = page.date | date: "%-d"  %}
+				{{ page.date | date: "%B" }} 
+				{% case d %}
+				{% when '1' or '21' or '31' %}{{ d }}st
+				{% when '2' or '22' %}{{ d }}nd
+				{% when '3' or '23' %}{{ d }}rd
+				{% else %}
+				{{ d }}th
+				{% endcase %}, 
+				{{ page.date | date: "%Y" }} by bezet</small>
+		</div>
+		<div class="entry">
+			{{ content }}
+		</div>
+		<p class="postmetadata singlePost"> 
+		<small>
+			Posted in <a href="http://bezet.outoftheblue.pl/category/uncategorized/" rel="category
+			tag">{{page.category}}</a>&nbsp;|&nbsp;
+		Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> {% if forloop.last != true %} {% endif %} {% endfor %}
+		</small><br/><br/>
+		</p>
+
+	</div>
+</div>
+<div id="rightColumn">
+	<h3>Recent posts:</h3>
+	{% for post in site.posts offset: 0 limit: 20 %}	
+	<div class="post">
+		<a title="{{post.title}}" href="{{ post.url }}">{{ post.title }}</a>
+	</div>
+	{% endfor %}	
+</div>

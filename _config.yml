@@ -1,0 +1,2 @@
+exclude: ['README.markdown', 'Gemfile.lock', 'Gemfile']
+url: http://bezet.outoftheblue.pl
