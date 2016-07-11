@@ -1,6 +1,6 @@
 body {
     color: #000;
-    font: 13px "Lucida Console", "Helvetica", "Arial", Courier, mono;
+    font: 14px "Lucida Console", "Helvetica", "Arial", Courier, mono;
 }
 #header {
     padding: 0;
@@ -70,7 +70,7 @@ small {
     float: none;
 }
 .post .entry {
-    padding: 0 50px 5px;
+    padding: 0 10px 5px;
     border: 1px solid #900;
     border-style: none none solid;
     margin-bottom: 5px;
@@ -145,4 +145,13 @@ small {
     tab-size: 4;
     -moz-tab-size: 4;
     -o-tab-size: 4;
+}
+code {
+	display: block;
+	border: solid #DDD 2px;
+	border-width: 2px 10px;
+	margin: 5px auto;
+	background-color: #DDD;
+	width: 80ch;
+	overflow: auto;
 }

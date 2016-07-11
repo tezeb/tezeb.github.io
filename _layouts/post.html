@@ -41,9 +41,8 @@ layout: default
 		</div>
 		<p class="postmetadata singlePost"> 
 		<small>
-			Posted in <a href="http://bezet.outoftheblue.pl/category/uncategorized/" rel="category
-			tag">{{page.category}}</a>&nbsp;|&nbsp;
-		Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> {% if forloop.last != true %} {% endif %} {% endfor %}
+			Posted in category: <!--<a href="/category/{{ page.category}}" rel="category tag">-->{{page.category}}<!--</a>&nbsp;|&nbsp;
+			Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> {% if forloop.last != true %} {% endif %} {% endfor %}-->
 		</small><br/><br/>
 		</p>
 
