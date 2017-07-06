@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "GSB - Day 0"
+date:   2017-06-14 12:00:00
+categories: gsb
+---
+Mogłoby się wydawać że cała trudność polega na chodzeniu. Ale tak naprawdę dobre przygotowanie jest równie ważne.
+Moje dotychczasowe doświadczenie z długimi pieszymi wyprawami jest znikome. Kilka lat temu z kumplem przez 2 tygodnie
+chodziliśmy po Sudetach. Do tego 5 dni w zeszłym roku w Patagonii. W obu przypadkach trasy były krótsze, ale przede
+wszystkim nie szedłem sam. Tym razem wszystko jest na mojej głowie, dlatego też starałem się przygotować jak najlepiej.
+Zacząłem od przejrzenia relacji Yatzka(http://gynvilla.blogspot.pl (???)), który 4 lata temu przeszedł GSB, a na dodatek
+jeszcze opisał swoją wędrówkę. Mając ogólny zarys i potencjalne miejsca noclegowe zrobiłem wstępny plan mocno pomagając
+sobie mapą on-line(http://mapa-turystyczna.pl).
+TODO: FOTKA
+Równolegle dokupiłem brakujący sprzęt(namiot, butla, bielizna termoaktywna, apteczka).
+TODO: opis sprzętu ???
+Ostatnim ważnym elementem planowania jest jedzenie. Znów udałem się w otchłań internetu, by wrócić z ciekawym planem
+żywieniowym podobno stosowanym przez Marka Kamińskiego(TODO: link + plan). Oczywiście, on szedł na biegun, więc miał
+znacznie wyższe zapotrzebowanie energetyczne. Według kalkulatorów internetowych przy mojej wadze i wzroście powinienem
+potrzebować około 3000kcal na dzień. W jadłospisie Marka Kamińskiego występują składniki, które są dla mnie zwyczajnie za drogie
+na codzienny użytek(żywność liofilizowana, 100g suszonej wołowiny dziennie!). Biorąc pod uwagę powyższe mój dzienny jadłospis
+wygląda z grubsza tak:
+Śniadanie:
+100g mleka w proszku(450kcal)
+100g muesli (450kcal)
+50g moreli suszonych
+W drodze:
+100g mieszanki bakaliowej(500kcal)
+2xbatonik muesli(~150kcal)
+100g czekolady(500kcal)
+200g kabanosa(500kcal)
+Kolacja:
+posiłek zakupiony w miejscu noclegu(???kcal)
+lub
+jedzenie liofilizowane/radosna twórczość(400kcal)
+25g wołowiny suszonej(170kcal)
+oraz
+kisiel(TODO: 150kcal ???)
+Wołowiny suszonej nie zdążyłem kupić w Krakowie i miałem zamiar radzić sobie bez niej, ale w Węgierskie Górce
+przypadkiem znalazłem ją w Żabce.
+
+Liofów kupiłem 5 i zamierzałem używać ich awaryjnie, zamiast Vifonów. Na początek przygotowałem 8 porcji śniadaniowych.
+Wraz z niezbędnym sprzętem mój bagaż wyglądał tak:
+TODO: FOTKA
+
+Po spakowaniu i zważeniu okazało się, że jest tego aż 16kg(bez wody). Przyzwyczajony do wnoszenia zapasów na Lubań,
+uznałem że nie jest tak źle.
+
+Ważną częścią przygotowania jest na pewno trening fizyczny. Uznałem, że mój zwyczajowy trening badminton i basen raz w
+tygodniu powinien być wystarczający.
+
+Ostatnią częścią przygotowań jest technika. Chciałem mieć możliwość trackowania się on-line na mapie wraz z możliwością
+wrzucania zdjęć. Oczywiście na pewno istnieją serwisy z których mógłbym w tym celu skorzystać, ale lubię mieć kontrolę
+nad moimi danymi, więc użyłem własnego rozwiązania, którego opis jest tutaj(TODO: link: po angielsku).
+
+
